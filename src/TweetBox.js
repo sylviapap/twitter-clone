@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import "./TweetBox.css";
 import { Avatar, Button } from "@material-ui/core";
-import db from "./firebase";
 
 function TweetBox() {
   const [tweetMessage, setTweetMessage] = useState("");
@@ -9,16 +7,6 @@ function TweetBox() {
 
   const sendTweet = (e) => {
     e.preventDefault();
-
-    db.collection("posts").add({
-      displayName: "Rafeh Qazi",
-      username: "cleverqazi",
-      verified: true,
-      text: tweetMessage,
-      image: tweetImage,
-      avatar:
-        "https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png",
-    });
 
     setTweetMessage("");
     setTweetImage("");

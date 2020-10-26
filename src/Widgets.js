@@ -1,5 +1,4 @@
 import React from "react";
-import "./Widgets.css";
 import {
   TwitterTimelineEmbed,
   TwitterShareButton,
@@ -18,17 +17,17 @@ function Widgets() {
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
 
-        <TwitterTweetEmbed tweetId={"858551177860055040"} />
+        <TwitterTweetEmbed tweetId={"1320645053451169792"} />
 
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="cleverqazi"
+          screenName="sylviapapdev"
           options={{ height: 400 }}
         />
 
         <TwitterShareButton
-          url={"https://facebook.com/cleverprogrammer"}
-          options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
+          url={"https://facebook.com"}
+          options={{ text: "#reactjs is awesome", via: "sylviapapdev" }}
         />
       </div>
     </div>
