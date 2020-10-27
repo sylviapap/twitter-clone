@@ -38,15 +38,21 @@ export const posts = [
     date: "Jul 4, 1995"
   },
   {
-    text: "i am a child computer prodigy\n*types rosebud into the sims 1*",
+    text: "y2k is real. i created the bug",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
-    avatar: "kid.jpg",
-    date: "Feb 4, 2000"
+    avatar: "babycomp.jpeg",
+    date: "Dec 31, 1999"
   },
   {
-    text: "in 20 years im going to realize that loving cheat codes/guides to games means im going to be very good at reading API documentation *big wink*",
+    text: "ok fine ill fix it lol",
+    displayName: "Sylvia",
+    username: "sylviapap",
+    avatar: "babycomp.jpeg",
+    date: "Dec 31, 1999"
+  },
+  {
+    text: "i am a child computer prodigy\n*types rosebud into the sims*",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -71,7 +77,7 @@ export const posts = [
     image: "https://i.kym-cdn.com/entries/icons/facebook/000/022/524/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg"
   },
   {
-    text: "i love neopets and puzzles! today i learned how to 'view page source'\nbut it doesnt seem like something that normal kids do so i think ill give it up for now. oh well!",
+    text: "i love neopets and puzzles! today i learned how to 'view page source'",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -79,15 +85,31 @@ export const posts = [
     date: "Jan 1, 2005"
   },
   {
-    text: "html strikes again. who knew it would be so useful for making my own pages on myspace? if only i could spend this much time on something for school",
+    text: "neopets doesnt seem like something that normal kids do so i think ill give it up for now. maybe try a 'sport'",
+    displayName: "Sylvia",
+    username: "sylviapap",
+    verified: "verified",
+    avatar: "kid.jpg",
+    date: "Jan 15, 2005"
+  },
+  {
+    text: "html strikes again. who knew it would be so useful for myspace? if only i could spend this much time on something for school",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
     avatar: "icarly.png",
     date: "Sep 1, 2007"
+  },  
+  {
+    text: "everyone is switching from myspace to facebook :/ so far im not the biggest fan. too many signup questions. like why do they need to know my age, blood type, and политическая принадлежность?",
+    displayName: "Sylvia",
+    username: "sylviapap",
+    verified: "verified",
+    avatar: "icarly.png",
+    date: "Jan 1, 2009"
   },
   {
-    text: "i like math and science. i wish we had AP computer science. today some guys in class were talking about computer 'languages' and i had no idea what that meant",
+    text: "i wish we had AP computer science here. today some guys in math were talking about computer 'languages' and i had no idea what that meant",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
