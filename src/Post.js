@@ -1,13 +1,9 @@
 import React, { forwardRef } from "react";
 import { Avatar } from "@material-ui/core";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
-import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
-import RepeatIcon from "@material-ui/icons/Repeat";
-import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import PublishIcon from "@material-ui/icons/Publish";
 
 const Post = forwardRef(
-  ({ displayName, username, verified, text, image, avatar }, ref) => {
+  ({ displayName, username, verified, text, image, avatar, date }, ref) => {
     return (
       <div className="post" ref={ref}>
         <div className="post__avatar">
@@ -20,20 +16,20 @@ const Post = forwardRef(
                 {displayName}{" "}
                 <span className="post__headerSpecial">
                   {verified && <VerifiedUserIcon className="post__badge" />} @
-                  {username}
+                  {username} &bull; {date}
                 </span>
               </h3>
             </div>
             <div className="post__headerDescription">
-              <p>{text}</p>
+              {text.split('\n').map(str => <p>{str}</p>)}
             </div>
           </div>
           <img src={image} alt="" />
           <div className="post__footer">
-            <ChatBubbleOutlineIcon fontSize="small" />
-            <RepeatIcon fontSize="small" />
-            <FavoriteBorderIcon fontSize="small" />
-            <PublishIcon fontSize="small" />
+            <i className="far fa-comment" fontSize="small" />
+            <i className="fas fa-retweet" />
+            <i class="far fa-heart"></i>
+            <i class="fas fa-external-link-alt"></i>
           </div>
         </div>
       </div>

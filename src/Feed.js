@@ -2,18 +2,9 @@ import React from "react";
 import TweetBox from "./TweetBox";
 import Post from "./Post";
 import FlipMove from "react-flip-move";
+import {posts} from "./data"
 
 function Feed() {
-  const posts = [
-    {
-      text: "hi",
-      displayName: "tester",
-      username: "username",
-      verified: "verified",
-      avatar: "logo.png",
-      image: "logo.png"
-    }
-  ]
 
   return (
     <div className="feed">
@@ -33,6 +24,7 @@ function Feed() {
             text={post.text}
             avatar={post.avatar}
             image={post.image}
+            date={post.date}
           />
         ))}
       </FlipMove>
