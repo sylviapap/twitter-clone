@@ -3,13 +3,11 @@ import { Avatar, Button } from "@material-ui/core";
 
 function TweetBox() {
   const [tweetMessage, setTweetMessage] = useState("");
-  const [tweetImage, setTweetImage] = useState("");
 
   const sendTweet = (e) => {
     e.preventDefault();
 
     setTweetMessage("");
-    setTweetImage("");
   };
 
   return (

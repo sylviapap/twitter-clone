@@ -1,10 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import TweetBox from "./TweetBox";
 import Post from "./Post";
 import FlipMove from "react-flip-move";
 
 function Feed() {
-  const posts = []
+  const posts = [
+    {
+      text: "hi",
+      displayName: "tester",
+      username: "username",
+      verified: "verified",
+      avatar: "logo.png",
+      image: "logo.png"
+    }
+  ]
 
   return (
     <div className="feed">
