@@ -13,7 +13,7 @@ import { Button } from "@material-ui/core";
 
 function Sidebar() {
   return (
-    <div>
+    <div className="sidebar container">
       <TwitterIcon className="sidebar__twitterIcon mobileHidden" />
 
     <div className="sidebar">

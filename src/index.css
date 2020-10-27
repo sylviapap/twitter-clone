@@ -20,7 +20,7 @@ body {
 /* Feed */
 
 .feed {
-  border-right: 1px solid var(--twitter-background);
+  border: 1px solid var(--twitter-background);
   overflow-y: scroll;
 }
 
@@ -29,7 +29,7 @@ body {
   top: 0;
   background-color: white;
   z-index: 100;
-  border: 1px solid var(--twitter-background);
+  border-bottom: 1px solid var(--twitter-background);
   padding: 15px 20px;
 }
 
@@ -102,10 +102,10 @@ body {
 /********************** Sidebar **********************/
 
 .sidebar {
-  border-right: 1px solid var(--twitter-background);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  margin: 5px;
 }
 
 .sidebar__twitterIcon {
@@ -201,8 +201,7 @@ body {
   background-color: var(--twitter-background);
   padding: 10px;
   border-radius: 20px;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin: 10px;
 }
 
 .widgets__input > input {
@@ -215,8 +214,7 @@ body {
 }
 
 .widgets__widgetContainer {
-  margin-top: 15px;
-  margin-left: 20px;
+  margin: 10px;
   padding: 20px;
   background-color: #f5f8fa;
   border-radius: 20px;
@@ -225,7 +223,6 @@ body {
 .widgets__widgetContainer > h2 {
   font-size: 18px;
   font-weight: 800;
-  max-width: min-content;
 }
 
 /* Mobile */
@@ -238,4 +235,13 @@ body {
     width: 100% !important; 
     justify-content: space-evenly;
   }
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebarText {display: none;}
+  .sidebar {
+    width: 100% !important; 
+    justify-content: space-evenly;
+  }
+  .sidebar__tweet {display: none !important;}
 }
