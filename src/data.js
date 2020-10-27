@@ -117,7 +117,7 @@ export const posts = [
     date: "Nov 23, 2009"
   },
   {
-    text: "my high school giving us one class called 'computer applications' where we learn how to use SUM in excel while there are 10 different classes for FFA and agricultural science",
+    text: "my high school giving us one class called 'computer applications' where we learn the excel SUM function while there are 10 different classes for FFA and agricultural science",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -126,7 +126,7 @@ export const posts = [
     image: "https://i.kym-cdn.com/entries/icons/mobile/000/028/021/work.jpg"
   },
   {
-    text: "college! yay!",
+    text: "excited for college!",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -152,7 +152,7 @@ export const posts = [
     image: "https://media1.tenor.com/images/96e316a78baaad3ee5b79fa0c6d4f7e6/tenor.gif?itemid=9777772"
   },
   {
-    text: "professor: java is an essential foundation to the study of computer science\nme: im going to need a different kind of JAVA to get through this morning haha\nprofessor: \nkid next to me already applying to google internships: \nme:",
+    text: "professor: java is essential to the study of computer science\nme: im going to need a different kind of JAVA to get through this morning haha\nprofessor: \nkid next to me already applying to google internships: \nme:",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -202,7 +202,7 @@ export const posts = [
     image: "law.jpg"
   },
   {
-    text: "me after watching one video on cryptography on khan academy",
+    text: "me after watching one khan academy video on cryptography",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -252,7 +252,7 @@ export const posts = [
     date: "Oct 20, 2019"
   },
   {
-    text: "khan academy intro to html & javascript? havent heard that name in years",
+    text: "intro to html & javascript? havent heard that name in years",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -268,14 +268,6 @@ export const posts = [
     date: "Oct 22, 2019"
   },
   {
-    text: "id like to file a class action lawsuit against my own brain for keeping me away from tech for so long",
-    displayName: "Sylvia",
-    username: "sylviapap",
-    verified: "verified",
-    avatar: "business.png",
-    date: "Oct 23, 2019"
-  },
-  {
     text: "just typed into terminal and it showed up on the browser so i think its safe to say",
     displayName: "Sylvia",
     username: "sylviapap",
@@ -285,13 +277,31 @@ export const posts = [
     image: "https://i.kym-cdn.com/entries/icons/mobile/000/025/351/afoeeee.jpg"
   },
   {
-    text: `career quiz: u should be computer scientist\nme: haha no im dumb\n school: no ur pretty good at STEM\nme: i wasnt top of my classes tho and computers are a whole other thing\nkhan academy, coursera, udacity, youtube, silicon valley: we are all living rent free in your brain \n
-    me: wait`,
+    text: `career quiz: u should be computer scientist\nme: haha wow thanks but i am not smart enough for that\n school: *one ounce of validation*\nme: well i am a gentlewoman and a scholar. but its too late\nyoutube suggestion: 20 Reasons Why It's Never Too Late For a Coding Bootcamp\n
+    me: ok but do i really want this? i want a career i love, not just for money or whatever\n
+    my khan academy, coursera, udacity, youtube tutorials, silicon valley, former logic professor, childhood nostalgia: ...yes`,
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
     avatar: "business.png",
     date: "Nov 6, 2019"
+  },
+  {
+    text: `just had the spontaneous epiphany that my calling in life is technology and coding. who knew`,
+    displayName: "Sylvia",
+    username: "sylviapap",
+    verified: "verified",
+    avatar: "business.png",
+    date: "Nov 6, 2019"
+  },
+  {
+    text: `maybe i CAN do it, and maybe ill enjoy it, but will i be good at it?\nstack overflow: no\nme:`,
+    displayName: "Sylvia",
+    username: "sylviapap",
+    verified: "verified",
+    avatar: "business.png",
+    date: "Nov 6, 2019",
+    image: "https://i.kym-cdn.com/photos/images/newsfeed/001/666/080/25a.jpg"
   },
   {
     text: "explaining to friends and family why i have decided to go back to yet another form of school and do a coding bootcamp\nmy parents, supporting whatever i do as long as i still help with the printer",
