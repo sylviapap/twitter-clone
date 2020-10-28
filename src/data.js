@@ -38,17 +38,9 @@ export const posts = [
     date: "Jul 4, 1995"
   },
   {
-    text: "y2k is real. i created the bug",
-    displayName: "Sylvia",
-    username: "sylviapap",
-    avatar: "babycomp.jpeg",
-    date: "Dec 31, 1999"
-  },
-  {
     text: "i am a child computer prodigy\n*types rosebud into the sims*",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "kid.jpg",
     date: "Feb 4, 2000"
   },
@@ -56,15 +48,13 @@ export const posts = [
     text: "learning HTML on Neopets - so fun!",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "kid.jpg",
     date: "Nov 1, 2004"
   },
   {
-    text: "me explaining neopets to my parents and other children in 4th grade",
+    text: "me explaining neopets to my parents and other kids in 4th grade",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "kid.jpg",
     date: "Dec 12, 2004",
     image: "https://i.kym-cdn.com/entries/icons/facebook/000/022/524/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg"
@@ -73,7 +63,6 @@ export const posts = [
     text: "neopets doesnt seem like something that normal kids do so i think ill give it up for now. maybe try a 'sport'",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "kid.jpg",
     date: "Jan 15, 2005"
   },
@@ -81,23 +70,20 @@ export const posts = [
     text: "who knew html would be so useful for myspace?",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "icarly.png",
     date: "Sep 1, 2007"
   },  
   {
-    text: "everyone is switching from myspace to facebook :/ im not the biggest fan. too many signup questions. like why do they need to know my age, blood type, and политическая принадлежность?",
+    text: "rip myspace, hello facebook :/ not the biggest fan. too many signup questions. like why do they need to know my age, blood type, and политическая принадлежность?",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "icarly.png",
     date: "Jan 1, 2009"
   },
   {
-    text: "my high school giving us one class called 'computer applications' where we learn the excel SUM function while there are 10 different classes for FFA and agricultural science",
+    text: "my high school giving us one class called 'computer applications' where we learn how to open excel, but 10 different classes in agricultural science and FFA",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "icarly.png",
     date: "Jan 1, 2010",
     image: "https://i.kym-cdn.com/entries/icons/mobile/000/028/021/work.jpg"
@@ -106,7 +92,6 @@ export const posts = [
     text: "excited for college!",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "college1.jpg",
     date: "Sep 22, 2013"
   },
@@ -114,25 +99,22 @@ export const posts = [
     text: "spoke too soon",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "college.png",
     date: "Sep 23, 2013",
-    image: "https://i.imgflip.com/3fr7ej.jpg"
-  },
-  {
-    text: "me in comp sci 101, day 1 lecture 1",
-    displayName: "Sylvia",
-    username: "sylviapap",
-    verified: "verified",
-    avatar: "college.png",
-    date: "Mar 20, 2014",
     image: "https://i.pinimg.com/564x/9c/72/d1/9c72d1fb5d61d8e71493c7d45c5e4612.jpg"
   },
   {
-    text: "professor: java is essential to the study of computer science\nme: im going to need a different kind of JAVA to get through this morning haha\nprofessor: \nkid next to me already applying to google internships: \nme:",
+    text: "me, seeing 'comp sci 101' in the course catalog: great! a class for beginners\nuchicago: ",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
+    avatar: "college.png",
+    date: "Mar 20, 2014",
+    image: "https://i.kym-cdn.com/photos/images/facebook/001/382/159/89e.jpg"
+  },
+  {
+    text: "professor: java is one of the most widely used programming languages-\nme: im going to need JAVA to get through this morning haha\nprofessor: \nkid next to me already applying to google internships: \nme:",
+    displayName: "Sylvia",
+    username: "sylviapap",
     avatar: "college.png",
     date: "Mar 21, 2014",
     image: "https://i.pinimg.com/564x/22/c3/94/22c3941a93a3578b56b4a5a539b5a4f8.jpg"
@@ -141,7 +123,6 @@ export const posts = [
     text: "i would like to inform the haters that i have dropped comp sci 101",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "college.png",
     date: "Mar 23, 2014"
   },
@@ -149,7 +130,6 @@ export const posts = [
     text: "might just f around and major in philosophy",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "phil.png",
     date: "Jan 1, 2016"
   },
@@ -157,15 +137,13 @@ export const posts = [
     text: "ok guess im going to dedicate my life to politics, human rights law, and apocalypse prepping",
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "phil.png",
     date: "Nov 8, 2016"
   },
   {
-    text: `me: why is my favorite class 'logic' and why didnt i stick with the math major? 'a if and only if b,' am i right? \n them: ma'am, this is a wendys`,
+    text: `me: im really loving my class on formal logic, and wondering if i should have majored in math? 'A if and only if B,' am i right? \n them: ma'am, this is a wendys`,
     displayName: "Sylvia",
     username: "sylviapap",
-    verified: "verified",
     avatar: "phil.png",
     date: "Jan 15, 2017"
   },
@@ -204,7 +182,7 @@ export const posts = [
     date: "Sep 21, 2018"
   },
   {
-    text: "therapist: try asking yourself, will this matter in a year? 5 years? 50 years?\nme, thinking about the game of thrones finale: yes",
+    text: "therapist: will this matter in a year? 5 years? 50 years?\nme, thinking about the game of thrones finale: yes",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -221,7 +199,7 @@ export const posts = [
     image: "meme.jpg"
   },
   {
-    text: "im so influenced by tv. i watch grey's anatomy, im a doctor. i watch silicon valley, im considering trying to learn coding for the millionth time. but game of thrones? i am now a film critic and this is my dissertation",
+    text: "im so influenced by tv. watching grey's anatomy? im a doctor. silicon valley? let me try learning to code for the millionth time. but game of thrones? i am a film critic and this is my dissertation",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -259,10 +237,10 @@ export const posts = [
     verified: "verified",
     avatar: "business.png",
     date: "Oct 29, 2019",
-    image: "https://i.kym-cdn.com/entries/icons/mobile/000/025/351/afoeeee.jpg"
+    image: "cs.jpg"
   },
   {
-    text: `career quiz: u should be computer scientist\nme: haha wow thanks but i am not smart enough for that\n coursera ad: you can become a professor in literally anything for free\nme: well i am a gentlewoman and a scholar. but its too late\nyoutube suggestion: 20 Reasons Why It's Never Too Late For a Coding Bootcamp`,
+    text: `career quiz: be computer scientist\nme: haha wow thanks but i am not smart enough for that\n coursera ad: you can become a professor in literally anything for free\nme: well i am a gentlewoman and a scholar. but its too late\nyoutube suggestion: Why It's Never Too Late For a Coding Bootcamp`,
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -291,7 +269,7 @@ export const posts = [
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
-    avatar: "prof.jpeg",
+    avatar: "business.png",
     date: "Dec 1, 2019",
     image: "https://i.kym-cdn.com/entries/icons/original/000/029/877/juicy.jpg"
   },
@@ -300,11 +278,20 @@ export const posts = [
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
-    avatar: "prof.jpeg",
+    avatar: "wfh.jpeg",
     date: "Jan 27, 2020"
   },
   {
-    text: "in all seriousness, thank you for reading this. coding is my passion, something ive never been able to say before (not since neopets at least) and im obsessed with twitter. i really hope this project shows a bit of that. send tweet",
+    text: "i got the twitter offer. best day of my life. mentally i am here",
+    displayName: "Future Sylvia",
+    username: "sylviapapdev",
+    verified: "verified",
+    avatar: "prof.jpeg",
+    date: "Nov 30, 2020",
+    image: "jb.png"
+  },
+  {
+    text: "the end! in all seriousness, thank you for reading this. coding is my passion, something ive never been able to say before (not since neopets at least) and im obsessed with twitter. i hope this project shows a bit of that. send tweet\nps - sorry for the chronological order and overall lack of actual twitter functionality here. creative decisions / work in progress",
     displayName: "Sylvia",
     username: "sylviapapdev",
     verified: "verified",
