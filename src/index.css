@@ -17,6 +17,26 @@ body {
   --twitter-background: #e6ecf0;
 }
 
+/* Icons */
+
+i.fa-heart:hover {
+  color: rgb(224, 36, 94)
+}
+
+.fa-comment:hover, .fa-external-link-alt:hover {
+  color: var(--twitter-color)
+}
+
+i.fa-retweet:hover {
+  color: rgb(23, 191, 99)
+}
+
+i {
+  -webkit-text-stroke-width: thin;
+  font-weight: 600;
+  color: rgb(101, 119, 134);
+}
+
 /* Feed */
 
 .feed {
@@ -61,17 +81,20 @@ body {
 .post__body {
   flex: 1;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .post__body > img {
   border-radius: 20px;
   max-width: 100%;
+  margin-bottom: 1em;
+  min-width: -webkit-fill-available;
 }
 
 .post__footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
 }
 
 .post__headerDescription {
@@ -237,7 +260,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
   .sidebarText {display: none;}
   .sidebar {
     width: 100% !important; 

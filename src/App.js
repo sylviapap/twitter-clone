@@ -16,8 +16,8 @@ function App() {
   return (
     <div>
       <Grid container >
-        <Grid item sm={2} className={classes.item}><Sidebar /></Grid>
-        <Grid item sm={6} className={classes.item}><Feed /></Grid>
+        <Grid item sm={3} className={classes.item}><Sidebar /></Grid>
+        <Grid item sm={5} className={classes.item}><Feed /></Grid>
         <Grid item sm={4} className={classes.item}><Widgets /></Grid>
       </Grid>
     </div>

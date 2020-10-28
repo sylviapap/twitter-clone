@@ -26,10 +26,10 @@ const Post = forwardRef(
           </div>
           <img src={image} alt="" />
           <div className="post__footer">
-            <i className="far fa-comment" fontSize="small" />
+            <i className="far fa-comment"  />
             <i className="fas fa-retweet" />
-            <i class="far fa-heart"></i>
-            <i class="fas fa-external-link-alt"></i>
+            <i className="far fa-heart" />
+            <i className="fa fa-external-link-alt"></i>
           </div>
         </div>
       </div>

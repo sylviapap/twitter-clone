@@ -45,13 +45,6 @@ export const posts = [
     date: "Dec 31, 1999"
   },
   {
-    text: "ok fine ill fix it lol",
-    displayName: "Sylvia",
-    username: "sylviapap",
-    avatar: "babycomp.jpeg",
-    date: "Dec 31, 1999"
-  },
-  {
     text: "i am a child computer prodigy\n*types rosebud into the sims*",
     displayName: "Sylvia",
     username: "sylviapap",
@@ -77,14 +70,6 @@ export const posts = [
     image: "https://i.kym-cdn.com/entries/icons/facebook/000/022/524/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg"
   },
   {
-    text: "i love neopets and puzzles! today i learned how to 'view page source'",
-    displayName: "Sylvia",
-    username: "sylviapap",
-    verified: "verified",
-    avatar: "kid.jpg",
-    date: "Jan 1, 2005"
-  },
-  {
     text: "neopets doesnt seem like something that normal kids do so i think ill give it up for now. maybe try a 'sport'",
     displayName: "Sylvia",
     username: "sylviapap",
@@ -93,7 +78,7 @@ export const posts = [
     date: "Jan 15, 2005"
   },
   {
-    text: "html strikes again. who knew it would be so useful for myspace? if only i could spend this much time on something for school",
+    text: "who knew html would be so useful for myspace?",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -101,20 +86,12 @@ export const posts = [
     date: "Sep 1, 2007"
   },  
   {
-    text: "everyone is switching from myspace to facebook :/ so far im not the biggest fan. too many signup questions. like why do they need to know my age, blood type, and политическая принадлежность?",
+    text: "everyone is switching from myspace to facebook :/ im not the biggest fan. too many signup questions. like why do they need to know my age, blood type, and политическая принадлежность?",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
     avatar: "icarly.png",
     date: "Jan 1, 2009"
-  },
-  {
-    text: "i wish we had AP computer science here. today some guys in math were talking about computer 'languages' and i had no idea what that meant",
-    displayName: "Sylvia",
-    username: "sylviapap",
-    verified: "verified",
-    avatar: "icarly.png",
-    date: "Nov 23, 2009"
   },
   {
     text: "my high school giving us one class called 'computer applications' where we learn the excel SUM function while there are 10 different classes for FFA and agricultural science",
@@ -149,7 +126,7 @@ export const posts = [
     verified: "verified",
     avatar: "college.png",
     date: "Mar 20, 2014",
-    image: "https://media1.tenor.com/images/96e316a78baaad3ee5b79fa0c6d4f7e6/tenor.gif?itemid=9777772"
+    image: "https://i.pinimg.com/564x/9c/72/d1/9c72d1fb5d61d8e71493c7d45c5e4612.jpg"
   },
   {
     text: "professor: java is essential to the study of computer science\nme: im going to need a different kind of JAVA to get through this morning haha\nprofessor: \nkid next to me already applying to google internships: \nme:",
@@ -202,7 +179,7 @@ export const posts = [
     image: "law.jpg"
   },
   {
-    text: "me after watching one khan academy video on cryptography",
+    text: "after watching one khan academy video on cryptography",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -227,6 +204,14 @@ export const posts = [
     date: "Sep 21, 2018"
   },
   {
+    text: "therapist: try asking yourself, will this matter in a year? 5 years? 50 years?\nme, thinking about the game of thrones finale: yes",
+    displayName: "Sylvia",
+    username: "sylviapap",
+    verified: "verified",
+    avatar: "business.png",
+    date: "May 19, 2019"
+  },
+  {
     text: "finishing an IR masters in london then moving to mexico to teach math like",
     displayName: "Sylvia",
     username: "sylviapap",
@@ -236,7 +221,7 @@ export const posts = [
     image: "meme.jpg"
   },
   {
-    text: "why do i love silicon valley (the show) so much",
+    text: "im so influenced by tv. i watch grey's anatomy, im a doctor. i watch silicon valley, im considering trying to learn coding for the millionth time. but game of thrones? i am now a film critic and this is my dissertation",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -277,9 +262,7 @@ export const posts = [
     image: "https://i.kym-cdn.com/entries/icons/mobile/000/025/351/afoeeee.jpg"
   },
   {
-    text: `career quiz: u should be computer scientist\nme: haha wow thanks but i am not smart enough for that\n school: *one ounce of validation*\nme: well i am a gentlewoman and a scholar. but its too late\nyoutube suggestion: 20 Reasons Why It's Never Too Late For a Coding Bootcamp\n
-    me: ok but do i really want this? i want a career i love, not just for money or whatever\n
-    my khan academy, coursera, udacity, youtube tutorials, silicon valley, former logic professor, childhood nostalgia: ...yes`,
+    text: `career quiz: u should be computer scientist\nme: haha wow thanks but i am not smart enough for that\n coursera ad: you can become a professor in literally anything for free\nme: well i am a gentlewoman and a scholar. but its too late\nyoutube suggestion: 20 Reasons Why It's Never Too Late For a Coding Bootcamp`,
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -287,7 +270,7 @@ export const posts = [
     date: "Nov 6, 2019"
   },
   {
-    text: `just had the spontaneous epiphany that my calling in life is technology and coding. who knew`,
+    text: `just had the spontaneous epiphany that my calling in life is technology and coding`,
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -295,7 +278,7 @@ export const posts = [
     date: "Nov 6, 2019"
   },
   {
-    text: `maybe i CAN do it, and maybe ill enjoy it, but will i be good at it?\nstack overflow: no\nme:`,
+    text: `maybe i CAN do it, and maybe ill even enjoy it, but will i be good at it?\nstack overflow: no\nme:`,
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -304,7 +287,7 @@ export const posts = [
     image: "https://i.kym-cdn.com/photos/images/newsfeed/001/666/080/25a.jpg"
   },
   {
-    text: "explaining to friends and family why i have decided to go back to yet another form of school and do a coding bootcamp\nmy parents, supporting whatever i do as long as i still help with the printer",
+    text: "explaining to friends and family why i have decided to go back to yet another form of school and do a coding bootcamp\nmy parents, supporting whatever i do as long as i can help with the printer",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -321,7 +304,7 @@ export const posts = [
     date: "Jan 27, 2020"
   },
   {
-    text: "in all seriousness, if you've made it this far, thank you. coding is my passion, something ive never been able to say before (not since neopets at least) and im obsessed with twitter. i really hope this little clone project shows a bit of that. send tweet",
+    text: "in all seriousness, thank you for reading this. coding is my passion, something ive never been able to say before (not since neopets at least) and im obsessed with twitter. i really hope this project shows a bit of that. send tweet",
     displayName: "Sylvia",
     username: "sylviapapdev",
     verified: "verified",

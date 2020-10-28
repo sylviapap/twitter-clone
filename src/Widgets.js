@@ -12,8 +12,6 @@ function Widgets() {
 
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
-
-        <TwitterTweetEmbed tweetId="1306295949925343232" />
         <TwitterTweetEmbed tweetId="1291925543231688704" />
         <TwitterFollowButton screenName="sylviapapdev" options={{size: 'large'}} />
 
