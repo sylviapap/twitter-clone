@@ -2,7 +2,7 @@ import React from "react";
 import {TwitterFollowButton, TwitterTweetEmbed} from "react-twitter-embed";
 import SearchIcon from "@material-ui/icons/Search";
 
-function Widgets() {
+function RightPanel() {
   return (
     <div className="widgets">
       <div className="widgets__input">
@@ -20,4 +20,4 @@ function Widgets() {
   );
 }
 
-export default Widgets;
+export default RightPanel;

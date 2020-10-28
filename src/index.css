@@ -37,6 +37,10 @@ i {
   color: rgb(101, 119, 134);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Feed */
 
 .feed {
@@ -132,7 +136,7 @@ i {
 }
 
 .sidebar__twitterIcon {
-  color: var(--twitter-color);
+  color: var(--twitter-color) !important;
   font-size: 30px !important;
   margin: 10px;
 }
@@ -151,6 +155,7 @@ i {
   display: flex;
   align-items: center;
   cursor: pointer;
+  color: black;
 }
 
 .sidebarOption:hover {
@@ -216,7 +221,7 @@ i {
   margin-left: auto !important;
 }
 
-/* Widgets */
+/* Right Side Panel - Search and Widgets */
 
 .widgets__input {
   display: flex;
