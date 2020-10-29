@@ -1,5 +1,5 @@
 import React from "react";
-import {TwitterFollowButton, TwitterTweetEmbed} from "react-twitter-embed";
+import {TwitterFollowButton, TwitterTimelineEmbed} from "react-twitter-embed";
 import SearchIcon from "@material-ui/icons/Search";
 
 function RightPanel() {
@@ -12,7 +12,12 @@ function RightPanel() {
 
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
-        <TwitterTweetEmbed tweetId="1306295949925343232" />
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="sylviapapdev"
+          options={{height: 400}}
+        />
+        {/* <TwitterTweetEmbed tweetId="1306295949925343232" /> */}
         <TwitterFollowButton screenName="sylviapapdev" options={{size: 'large'}} />
 
       </div>
