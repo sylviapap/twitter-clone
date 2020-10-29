@@ -282,7 +282,7 @@ export const posts = [
     date: "Jan 27, 2020"
   },
   {
-    text: "i got the twitter offer. best day of my life. mentally i am here",
+    text: "i got the twitter offer, best day of my life!!!!!! mentally i am here",
     displayName: "Future Sylvia",
     username: "sylviapapdev",
     verified: "verified",
@@ -291,7 +291,7 @@ export const posts = [
     image: "jb.png"
   },
   {
-    text: "the end! in all seriousness, thank you for reading this. coding is my passion, something ive never been able to say before (not since neopets at least) and im obsessed with twitter. i hope this project shows a bit of that. send tweet\nps - sorry for the chronological order and overall lack of actual twitter functionality here. creative decisions / work in progress",
+    text: "the end! in all seriousness, thank you for reading this. coding is my passion, something ive never been able to say before (not since neopets at least) and im obsessed with twitter. i hope this project shows a bit of that. send tweet\nps - sorry for the chronological order and overall lack of actual twitter functionality here. creative decisions / work in progress. but check out the nav bar for links to my other profiles!",
     displayName: "Sylvia",
     username: "sylviapapdev",
     verified: "verified",
