@@ -1,6 +1,6 @@
 export const posts = [
   {
-    text: "Just had a baby!",
+    text: "Just had a baby! She's going to be a real 'Capricorn sun Aquarius moon', I can tell 😂 ☃️",
     displayName: "Diane Pap",
     username: "mom",
     verified: "verified",
@@ -141,7 +141,7 @@ export const posts = [
     date: "Nov 8, 2016"
   },
   {
-    text: `me: im really loving my class on formal logic, and wondering if i should have majored in math? 'A if and only if B,' am i right? \n them: ma'am, this is a wendys`,
+    text: `me: i love this class on formal logic. wondering if i should have majored in math? 'A if and only if B,' am i right? \n them: ma'am, this is a wendys`,
     displayName: "Sylvia",
     username: "sylviapap",
     avatar: "phil.png",
@@ -190,6 +190,22 @@ export const posts = [
     date: "May 19, 2019"
   },
   {
+    text: "took a DNA test turns out im 100% addicted to twitter\nteam of doctors surrounding me: yes its actually quite concerning",
+    displayName: "Sylvia",
+    username: "sylviapap",
+    verified: "verified",
+    avatar: "business.png",
+    date: "Jul 9, 2019"
+  },
+  {
+    text: "you dont know sacrifice until youve deleted a twitter account with a tweet on game of thrones that got a couple hundred likes, all in the name of focusing on grad school without distractions",
+    displayName: "Sylvia",
+    username: "sylviapap",
+    verified: "verified",
+    avatar: "business.png",
+    date: "Aug 17, 2019"
+  },
+  {
     text: "finishing an IR masters in london then moving to mexico to teach math like",
     displayName: "Sylvia",
     username: "sylviapap",
@@ -199,7 +215,7 @@ export const posts = [
     image: "meme.jpg"
   },
   {
-    text: "im so influenced by tv. watching grey's anatomy? im a doctor. silicon valley? let me try learning to code for the millionth time. but game of thrones? i am a film critic and this is my dissertation",
+    text: "im so influenced by tv. watching grey's anatomy? im a doctor. suits? lawyer. silicon valley? let me try learning to code for the millionth time",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -291,7 +307,7 @@ export const posts = [
     image: "jb.png"
   },
   {
-    text: "the end! in all seriousness, thank you for reading this. coding is my passion, something ive never been able to say before (not since neopets at least) and im obsessed with twitter. i hope this project shows a bit of that. send tweet\nps - sorry for the chronological order and overall lack of actual twitter functionality here. creative decisions / work in progress. but check out the nav bar for links to my other profiles!",
+    text: "The end! Thank you for reading this. There are few things I love in this world more than coding and Twitter, and I hope this project shows that. Send 👏 tweet 👏 \nPS: Sorry for the lack of actual Twitter functionality. This was more about creativity than making an exact Twitter replica. Check out the nav bar for links to my other media!",
     displayName: "Sylvia",
     username: "sylviapapdev",
     verified: "verified",
