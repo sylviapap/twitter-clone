@@ -48,7 +48,7 @@ a {
   overflow-y: scroll;
 }
 
-.feed__header {
+.feed-header {
   position: sticky;
   top: 0;
   background-color: white;
@@ -57,7 +57,7 @@ a {
   padding: 15px 20px;
 }
 
-.feed__header > h2 {
+.feed-header > h2 {
   font-size: 20px;
   font-weight: 800;
 }
@@ -82,7 +82,7 @@ a {
   max-width: 750px;
 }
 
-.post__body {
+.post-body {
   flex: 1;
   padding: 10px;
   display: flex;
@@ -90,40 +90,40 @@ a {
   padding-right: 20px;
 }
 
-.post__body > img {
+.post-body > img {
   border-radius: 20px;
   max-width: 100%;
   margin-bottom: 1em;
   min-width: -webkit-fill-available;
 }
 
-.post__footer {
+.post-footer {
   display: flex;
   justify-content: space-between;
 }
 
-.post__headerDescription {
+.post-headerDescription {
   margin-bottom: 10px;
   font-size: 15px;
 }
 
-.post__headerText > h3 {
+.post-headerText > h3 {
   font-size: 15px;
   margin-bottom: 5px;
 }
 
-.post__badge {
+.verified {
   font-size: 14px !important;
   color: var(--twitter-color);
 }
 
-.post__headerSpecial {
+.post-headerSpecial {
   font-weight: 600;
   font-size: 12px;
   color: gray;
 }
 
-.post__avatar {
+.avatar {
   padding: 20px;
 }
 
@@ -136,13 +136,13 @@ a {
   margin: 5px;
 }
 
-.sidebar__twitterIcon {
+.sidebar-twitterIcon {
   color: var(--twitter-color) !important;
   font-size: 30px !important;
   margin: 10px;
 }
 
-.sidebar__tweet {
+.sidebar-tweetButton {
   background-color: var(--twitter-color) !important;
   border: none !important;
   color: white !important;
@@ -192,24 +192,24 @@ a {
   flex-direction: column;
 }
 
-.tweetBox__input {
+.tweetBox-input {
   padding: 20px;
   display: flex;
 }
 
-.tweetBox__input > input {
+.tweetBox-input > input {
   flex: 1;
   margin-left: 20px;
   font-size: 20px;
   border: none;
 }
 
-.tweetBox__imageInput {
+.tweetBox-imageInput {
   border: none;
   padding: 10px;
 }
 
-.tweetBox__tweetButton {
+.tweetBox-tweetButton {
   background-color: var(--twitter-color) !important;
   border: none !important;
   color: white !important;
@@ -280,5 +280,5 @@ input {
     width: 100% !important; 
     justify-content: space-evenly;
   }
-  .sidebar__tweet {display: none !important;}
+  .sidebar-tweet {display: none !important;}
 }

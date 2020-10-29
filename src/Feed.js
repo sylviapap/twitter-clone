@@ -1,23 +1,21 @@
 import React from "react";
 import TweetBox from "./TweetBox";
 import Post from "./Post";
-import FlipMove from "react-flip-move";
 import {posts} from "./data"
 
 function Feed() {
 
   return (
     <div className="feed">
-      <div className="feed__header">
+      <div className="feed-header">
         <h2>Home</h2>
       </div>
 
       <TweetBox />
 
-      <FlipMove>
         {posts.map((post) => (
           <Post
-            key={post.text}
+            key={posts.indexOf(post)}
             displayName={post.displayName}
             username={post.username}
             verified={post.verified}
@@ -27,7 +25,6 @@ function Feed() {
             date={post.date}
           />
         ))}
-      </FlipMove>
     </div>
   );
 }

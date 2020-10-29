@@ -2,12 +2,20 @@ import React from "react";
 import {TwitterFollowButton, TwitterTimelineEmbed} from "react-twitter-embed";
 import SearchIcon from "@material-ui/icons/Search";
 
-function RightPanel() {
+const RightPanel = () => {
+  const handleSubmit = () => {document.location.reload()}
   return (
     <div className="right-panel">
       <div className="search">
         <SearchIcon className="searchIcon" />
-        <input id="search" placeholder="Search Twitter" type="text" name="name" autocomplete="off" />
+        <form onSubmit={handleSubmit}>
+        <input 
+          id="search" 
+          placeholder="Search Twitter" 
+          type="text" 
+          autoComplete="off" 
+        />
+        </form>
       </div>
 
       <div className="widgetContainer">

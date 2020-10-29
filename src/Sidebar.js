@@ -16,7 +16,7 @@ function Sidebar() {
   return (
     <div className="sidebar container">
       <Link href="/">
-        <TwitterIcon className="sidebar__twitterIcon mobileHidden" />
+        <TwitterIcon className="sidebar-twitterIcon mobileHidden" />
       </Link>
 
     <div className="sidebar">
@@ -29,7 +29,7 @@ function Sidebar() {
       <SidebarOption Icon={PermIdentityIcon} text="Profile"  href="/" />
       <SidebarOption Icon={MoreHorizIcon} text="More" mobileHidden href="https://dev.to/sylviapap" />
 
-      <Button variant="outlined" className="sidebar__tweet mobileHidden" fullWidth href="/">
+      <Button variant="outlined" className="sidebar-tweetButton mobileHidden" fullWidth href="/">
         Tweet
       </Button>
     </div>

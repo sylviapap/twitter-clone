@@ -1,31 +1,30 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import { Avatar } from "@material-ui/core";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
 
-const Post = forwardRef(
-  ({ displayName, username, verified, text, image, avatar, date }, ref) => {
+const Post = ({ displayName, username, verified, text, image, avatar, date }) => {
     return (
-      <div className="post" ref={ref}>
-        <div className="post__avatar">
+      <div className="post" key>
+        <div className="avatar">
           <Avatar src={avatar} />
         </div>
-        <div className="post__body">
-          <div className="post__header">
-            <div className="post__headerText">
+        <div className="post-body">
+          <div className="post-header">
+            <div className="post-headerText">
               <h3>
                 {displayName}{" "}
-                <span className="post__headerSpecial">
-                  {verified && <VerifiedUserIcon className="post__badge" />} @
+                <span className="post-headerSpecial">
+                  {verified && <VerifiedUserIcon className="verified" />} @
                   {username} &bull; {date}
                 </span>
               </h3>
             </div>
-            <div className="post__headerDescription">
-              {text.split('\n').map(str => <p>{str}</p>)}
+            <div className="post-headerDescription">
+              {text.split('\n').map(str => <p key={str}>{str}</p>)}
             </div>
           </div>
           <img src={image} alt="" />
-          <div className="post__footer">
+          <div className="post-footer">
             <i className="far fa-comment"  />
             <i className="fas fa-retweet" />
             <i className="far fa-heart" />
@@ -35,6 +34,5 @@ const Post = forwardRef(
       </div>
     );
   }
-);
 
 export default Post;

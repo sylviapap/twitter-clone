@@ -5,7 +5,7 @@ function TweetBox() {
   return (
     <div className="tweetBox">
       <form>
-        <div className="tweetBox__input">
+        <div className="tweetBox-input">
           <Avatar src="logo.png" />
           <input
             placeholder="What's happening?"
@@ -16,7 +16,7 @@ function TweetBox() {
         <Button
           href="/"
           type="submit"
-          className="tweetBox__tweetButton"
+          className="tweetBox-tweetButton"
         >
           Tweet
         </Button>
