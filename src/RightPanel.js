@@ -4,20 +4,19 @@ import SearchIcon from "@material-ui/icons/Search";
 
 function RightPanel() {
   return (
-    <div className="widgets">
-      <div className="widgets__input">
-        <SearchIcon className="widgets__searchIcon" />
-        <input placeholder="Search Twitter" type="text" />
+    <div className="right-panel">
+      <div className="search">
+        <SearchIcon className="searchIcon" />
+        <input id="search" placeholder="Search Twitter" type="text" name="name" autocomplete="off" />
       </div>
 
-      <div className="widgets__widgetContainer">
+      <div className="widgetContainer">
         <h2>What's happening</h2>
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="sylviapapdev"
           options={{height: 400}}
         />
-        {/* <TwitterTweetEmbed tweetId="1306295949925343232" /> */}
         <TwitterFollowButton screenName="sylviapapdev" options={{size: 'large'}} />
 
       </div>

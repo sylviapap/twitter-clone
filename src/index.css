@@ -127,7 +127,7 @@ a {
   padding: 20px;
 }
 
-/********************** Sidebar **********************/
+/********************** Left/Nav Sidebar **********************/
 
 .sidebar {
   display: flex;
@@ -224,7 +224,11 @@ a {
 
 /* Right Side Panel - Search and Widgets */
 
-.widgets__input {
+.right-panel {
+  margin: 20px;
+}
+
+.search {
   display: flex;
   align-items: center;
   background-color: var(--twitter-background);
@@ -233,23 +237,27 @@ a {
   margin: 10px;
 }
 
-.widgets__input > input {
-  border: none;
+input#search {
   background-color: var(--twitter-background);
 }
 
-.widgets__searchIcon {
+input {
+  border-style: none;
+  outline: none;
+}
+
+.searchIcon {
   color: gray;
 }
 
-.widgets__widgetContainer {
+.widgetContainer {
   margin: 10px;
   padding: 20px;
   background-color: #f5f8fa;
   border-radius: 20px;
 }
 
-.widgets__widgetContainer > h2 {
+.widgetContainer > h2 {
   font-size: 18px;
   font-weight: 800;
 }
