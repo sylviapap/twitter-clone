@@ -74,7 +74,7 @@ export const posts = [
     date: "Sep 1, 2007"
   },  
   {
-    text: "rip myspace, hello facebook :/ not the biggest fan. too many signup questions. like why do they need to know my age, blood type, and политическая принадлежность?",
+    text: "rip myspace, hello facebook :/ not the biggest fan. too many signup questions. like why do they need to know my age? or blood type, and политическая принадлежность?",
     displayName: "Sylvia",
     username: "sylviapap",
     avatar: "icarly.png",
@@ -112,7 +112,7 @@ export const posts = [
     image: "https://i.kym-cdn.com/photos/images/facebook/001/382/159/89e.jpg"
   },
   {
-    text: "professor: java is one of the most widely used programming languages-\nme: im going to need JAVA to get through this morning haha\nprofessor: \nkid next to me already applying to google internships: \nme:",
+    text: "professor: java is one of the most important programming languages-\nme: im going to need JAVA to get through this morning haha\nprofessor: \nkid next to me already applying to google internships: \nme:",
     displayName: "Sylvia",
     username: "sylviapap",
     avatar: "college.png",
@@ -141,7 +141,7 @@ export const posts = [
     date: "Nov 8, 2016"
   },
   {
-    text: `me: i love this class on formal logic. wondering if i should have majored in math? 'A if and only if B,' am i right? \n them: ma'am, this is a wendys`,
+    text: `me: i love this class on formal logic. wondering if i should have majored in math? 'A if and only if B,' am i right? \nthem: ma'am, this is a wendys`,
     displayName: "Sylvia",
     username: "sylviapap",
     avatar: "phil.png",
@@ -182,14 +182,6 @@ export const posts = [
     date: "Sep 21, 2018"
   },
   {
-    text: "therapist: will this matter in a year? 5 years? 50 years?\nme, thinking about the game of thrones finale: yes",
-    displayName: "Sylvia",
-    username: "sylviapap",
-    verified: "verified",
-    avatar: "business.png",
-    date: "May 19, 2019"
-  },
-  {
     text: "took a DNA test turns out im 100% addicted to twitter\nteam of doctors surrounding me: yes its actually quite concerning",
     displayName: "Sylvia",
     username: "sylviapap",
@@ -198,7 +190,7 @@ export const posts = [
     date: "Jul 9, 2019"
   },
   {
-    text: "you dont know sacrifice until youve deleted a twitter account with a tweet on game of thrones that got a couple hundred likes, all in the name of focusing on grad school without distractions",
+    text: "you dont know sacrifice until youve gotten a couple hundred likes on a tweet about game of thrones, then deleted your account so you could focus on grad school",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
@@ -290,7 +282,7 @@ export const posts = [
     image: "https://i.kym-cdn.com/entries/icons/original/000/029/877/juicy.jpg"
   },
   {
-    text: "wow i am absolutely in love with my coding bootcamp, the city of san francisco, and this wework building. sure hope nothing major happens in the next couple of months to disrupt this exciting city tech life",
+    text: "wow, i am absolutely in love with my coding bootcamp, the city of san francisco, and this wework building. sure hope nothing major happens in the next couple of months to disrupt this exciting city tech life",
     displayName: "Sylvia",
     username: "sylviapap",
     verified: "verified",
