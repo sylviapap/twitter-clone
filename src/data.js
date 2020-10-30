@@ -1,6 +1,6 @@
 export const posts = [
   {
-    text: "Just had a baby! She's going to be a real 'Capricorn sun Aquarius moon', I can tell 😂 ☃️",
+    text: "Just had a baby!",
     displayName: "Diane Pap",
     username: "mom",
     verified: "verified",
