@@ -25,7 +25,7 @@ function Sidebar() {
       <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" href="https://github.com/sylviapap" />
       <SidebarOption Icon={MailOutlineIcon} text="Messages" href="https://www.linkedin.com/in/sylvia-pap/" />
       <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" mobileHidden href="https://dev.to/sylviapap" />
-      <SidebarOption Icon={ListAltIcon} text="Linked Lists" mobileHidden href="https://leetcode.com/sylviapap1/" />
+      <SidebarOption Icon={ListAltIcon} text="Lists" mobileHidden href="https://leetcode.com/sylviapap1/" />
       <SidebarOption Icon={PermIdentityIcon} text="Profile"  href="https://twitter.com/sylviapapdev" />
       <SidebarOption Icon={MoreHorizIcon} text="More" mobileHidden href="https://stackoverflow.com/users/13272348/sylvia-pap" />
 
