@@ -26,7 +26,7 @@ function Sidebar() {
       <SidebarOption Icon={MailOutlineIcon} text="Messages" href="https://www.linkedin.com/in/sylvia-pap/" />
       <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" mobileHidden href="https://dev.to/sylviapap" />
       <SidebarOption Icon={ListAltIcon} text="Lists" mobileHidden href="https://leetcode.com/sylviapap/" />
-      <SidebarOption Icon={PermIdentityIcon} text="Profile"  href="https://twitter.com/sylviapapdev" />
+      <SidebarOption Icon={PermIdentityIcon} text="Profile"  href="https://twitter.com/sylvialpap" />
       <SidebarOption Icon={MoreHorizIcon} text="More" mobileHidden href="https://stackoverflow.com/users/13272348/sylvia-pap" />
 
       <Button variant="outlined" className="sidebar-tweetButton mobileHidden" fullWidth href="/">

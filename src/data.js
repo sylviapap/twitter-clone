@@ -288,22 +288,5 @@ export const posts = [
     verified: "verified",
     avatar: "wfh.jpeg",
     date: "Jan 27, 2020"
-  },
-  {
-    text: "i got the twitter offer, best day of my life!!!!!! mentally i am here",
-    displayName: "Future Sylvia",
-    username: "sylviapapdev",
-    verified: "verified",
-    avatar: "prof.jpeg",
-    date: "Nov 30, 2020",
-    image: "jb.png"
-  },
-  {
-    text: "The end! Thank you for reading this. There are few things I love in this world more than coding and Twitter, and I hope this project shows that. Send 👏 tweet 👏 \nPS: Sorry for the lack of actual Twitter functionality. This was more about creativity than making an exact Twitter replica. Check out the nav bar for links to my other media!",
-    displayName: "Sylvia",
-    username: "sylviapapdev",
-    verified: "verified",
-    avatar: "prof.jpeg",
-    date: "Today"
   }
 ]

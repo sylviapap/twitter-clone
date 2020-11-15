@@ -22,10 +22,10 @@ const RightPanel = () => {
         <h2>What's happening</h2>
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="sylviapapdev"
+          screenName="sylvialpap"
           options={{height: 400}}
         />
-        <TwitterFollowButton screenName="sylviapapdev" options={{size: 'large'}} />
+        <TwitterFollowButton screenName="sylvialpap" options={{size: 'large'}} />
 
       </div>
     </div>
